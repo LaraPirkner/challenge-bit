@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+}
+.top   {
+    box-shadow: 6px 2px 1px black;
+}
+/* navigation bar*/
+.nav{
+    background-color: #f5f5f5f5;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 2px 2px 1px black;
+}
+#amount{
+    position: absolute;
+    top: 14px; left: 87%;
+    padding-right: 10px ;
+    border-right: 1px solid #ccc;
+}
+#credit{
+    position: absolute;
+    top: 30px; left: 85%;
+}
+/*dropdown*/
+#down{
+    position: absolute;
+    padding-left: 6px;
+    top: 30px; left: 97%;
+}
+#dropbtn {
+    color: rgb(19, 19, 19);
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    top: 30px; left: 90%;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5f5;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50px; left: 89%;
+    border-radius: 6px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover #dropbtn {background-color: #f1f1f1;}
+
+  #icon{
+      position: absolute;
+      right: 80%;
+  }
+
+/* side bar*/
+.side-bar{
+    width: 64px;
+    position: absolute;
+}
+
+.leftside{
+    background-color: #132732;
+    width:64px; height: 900px;
+}
+.icon-side{
+    padding-top:14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+/*inside box*/
+#head{
+    color: #ffffff;
+    margin: 0px;
+    font-size: 40px;
+    position: absolute;
+    left: 140px;top: 140px;
+
+}
+.title{
+    background-color: #1c96a3;
+    height: 160px; width: auto;
+}
+
+/*question form*/
+.form{
+    flex-direction: column;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 64px;
+    border: 2px solid rgb(167, 165, 165);
+    border-radius: 6px;
+    height: 735px;
+    width: 720px;
+    color: rgb(94, 91, 91);
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+}
+.welcomeMessage{
+    display: flex;
+    width:500px;
+    height: 30px;
+    margin-top:  108px;
+    margin-bottom: 108px;
+    margin-right: 108px;
+    padding: 5px;
+    border: 1px rgb(167, 165, 165) solid;
+    border-radius: 3px;
+    justify-content: space-around;
+}
+.question{
+  display: flex;
+  width:600px;
+  height: auto;
+  margin-top:  108px;
+  margin-bottom: 108px;
+  margin-left: 108px;
+  padding: 5px;
+  border: 1px rgb(167, 165, 165) solid;
+  border-radius: 3px;
+  justify-content: space-around;
+}
+.answer{
+  display: flex;
+  width:600px;
+  height: auto;
+  margin-top:  108px;
+  margin-bottom: 108px;
+  margin-right: 108px;
+  padding: 5px;
+  border: 1px rgb(167, 165, 165) solid;
+  border-radius: 3px;
+  justify-content: space-around;
+}
+.formulier{
+  margin-left: 720px;
+  border: 2px solid rgb(167, 165, 165);
+  border-radius: 6px;
+  height: 730px;
+  width: 1110px;
+  position: absolute;
+  top: 232px;
+  color: rgb(94, 91, 91);
+  font-fmily: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+}

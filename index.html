@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>vragen</title>
+</head>
+<body>
+<div>
+    <div class="top">
+        <nav class="nav">
+
+            <img src="image/bitlogo.png" alt="bit logo">
+            <img id="credit" src="image/credit.png" alt="credit">
+            <p id="amount">3</p>
+
+            <div class="dropdown">
+                <button id="dropbtn">Ties Noordhuis
+
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Instellingen
+                        <img id="icon" src="image/settings.png" alt="settings">
+                    </a>
+                    <a href="#">Changelog
+                        <img id="icon" src="image/changelog.png" alt="changelog">
+                    </a>
+                    <a href="#">Uitloggen
+                        <img id="icon" src="image/uitloggen.png" alt="uitloggen">
+                    </a>
+                </div>
+                <img id="down" src="image/arrow.png" alt="arrow">
+            </div>
+        </nav>
+    </div>
+
+    <div class="side-bar">
+        <nav class="leftside">
+            <img class="icon-side"src="image/home.png" alt="home">
+            <img class="icon-side"src="image/module.png" alt="arrows">
+            <img class="icon-side"src="image/review.png" alt="review">
+            <img class="icon-side"src="image/coach.png" alt="coach">
+            <img class="icon-side"src="image/goal.png" alt="goals">
+        </nav>
+    </div>
+
+    <div class="heading">
+        <nav class="title">
+            <p id="head">Vragen</p>
+        </nav>
+    </div>
+
+    <div class="form">
+        <p class="welcomeMessage">Hi! Welke vraag wil je me stellen?</p>
+
+      <div>
+        <p class="question">kies een van de vragen:
+        <button onclick="answeringA()">Hoelaat begint BIT?</button>
+        <button onclick="answeringB()">Wanneer zijn de pauzes?</button>
+        <button onclick="answeringC()">Hoelaat zijn we uit?</button>
+        </p>
+      </div>
+        <p id="answer"></p>
+      <div class="formulier">
+        Stel jouw vraag: <input type="text" id="myText" value="">
+        <p>Stuur Jouw vraag in!</p>
+        <button onclick="myFunction()">Submit</button>
+        <p id="vragen"></p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
